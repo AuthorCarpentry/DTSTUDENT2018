@@ -221,6 +221,8 @@ Annex
 
 Annex Table Complete doaj_seal dataset (set target as annex-table)
 
+insert_DTtable.R
+
 Principal Investigator's BioSketch
 
 This section is populated dynamically from the author's ORCID profile using the rorcid package by Chamberlain.
@@ -229,12 +231,12 @@ About me...
 
 ****
 
-References
+# References
 
-Castro et al, 2017. blah blah blah
+Castro et al, 2017. blah blah blah  
 
-Vasilevsky et al, 2017. blah blah blah
+Vasilevsky et al, 2017. blah blah blah  
 
-Wickham 201?. blah blah blah
+Wickham 201?. blah blah blah  
 
-Xie et al, 2018. blah blah blah
+Xie et al, 2018. blah blah blah  
