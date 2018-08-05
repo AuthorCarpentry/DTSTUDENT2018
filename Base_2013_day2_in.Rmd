@@ -18,7 +18,7 @@ library(DT)
 
 ```{r global_options, include=FALSE}
 # Set global options for chunk options
-knitr::opts_chunk$set(echo=TRUE, warning=FALSE,message=FALSE, cache=FALSE)
+knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, cache=FALSE)
 ```
 
 ```{r add_dataset}
@@ -28,9 +28,9 @@ doaj_seal <- read_csv('DOAJ_Seal.csv')
 
 ```
 
-Administrative Data
+# Administrative Data
 
-ID
+## ID
 
 Not Applicable
 
@@ -87,7 +87,7 @@ a - All original data, code, or reports produced as part of this project are own
 
 b - The J. Bohannan Foundation adheres to the open access and data sharing policies of the Gates Foundation https://www.gatesfoundation.org/How-We-Work/General-Information/Open-Access-Policy
 
-*****
+****
 
 Data Collection
 
@@ -100,7 +100,7 @@ This data will be read into the open source tool OpenRefine openrefine.org to fi
 The filtered version of the data set will be exported from OpenRefine as a new file named doaj_seal.csv for importing into analytical software.
 
 
-A sample of the doaj_seal.csv data set is shown below.  
+A sample of the doaj_seal.csv data set is shown below.  A dynamic table providing the full dataset in browseable, sortable format is provided in the Annex hear the end of this document.
 
 ```{r table-head}
 knitr::kable(head(doaj_seal, 4), caption = 'A Table of the first 4 rows of the DOAJ Seal data.')
@@ -218,6 +218,8 @@ The Data Management Specialist assigned to the project as an in-kind contributio
 
 Principal Investigator's BioSketch
 
+This section is populated dynamically from the author's ORCID profile using the rorcid package by Chamberlain.
+
 About me...
 
 ****
@@ -229,3 +231,5 @@ Castro et al, 2017. blah blah blah
 Vasilevsky et al, 2017. blah blah blah
 
 Wickham 201?. blah blah blah
+
+Xie et al, 2018. blah blah blah
