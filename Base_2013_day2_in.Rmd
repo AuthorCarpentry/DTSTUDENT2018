@@ -8,7 +8,7 @@ output: html_document
 
 *****
 
-```{r setup, include=FALSE, echo = FALSE}
+```{r setup, include=FALSE, echo = FALSE, warning=FALSE}
 
 # Load packages used in this exercise
 library(tidyverse)
@@ -74,12 +74,15 @@ Firstname Lastname, Principal Investigator, Institution
 
 Researcher ID
 
-ORCID: your ORCID number
+ORCID: Enter your ORCID number here and hyperlink it
 
 Date of First Version 
 
+Enter date from insert_dates.R
+
 Date of Last Update
 
+Enter date from insert_dates.R
 
 Related Policies
 
@@ -100,7 +103,9 @@ This data will be read into the open source tool OpenRefine openrefine.org to fi
 The filtered version of the data set will be exported from OpenRefine as a new file named doaj_seal.csv for importing into analytical software.
 
 
-A sample of the doaj_seal.csv data set is shown below.  A dynamic table providing the full dataset in browseable, sortable format is provided in the Annex hear the end of this document.
+A sample of the doaj_seal.csv data set is shown below.   The complete data set is available in searchable and broweseable format as Annex 10.1 #annex-table in the Annex section near the end of this document.
+
+
 
 ```{r table-head}
 knitr::kable(head(doaj_seal, 4), caption = 'A Table of the first 4 rows of the DOAJ Seal data.')
@@ -138,21 +143,17 @@ Expected Outputs of the project
 
 |Output #|Digital Output|Type|Format,Duration,Size|Planned access|
 |:------:|:-------|:-----------|:----------|:-------------|
-|1|doaj_seal.csv|raw data set downloaded from DOAJ site| CSV file, plain text format, 2.7 MB   | Not retained since duplicative  |
-|2| doaj_seal_enhanced.csv | enhanced data set with new data | CSV file, plain text format, 2.7 MB   | GitHub repository; Zenodo repository  |
-|3| Data set documentation | json metadata file | plain text file, .1 MB | Datacite registry database; GitHub public repository; Zenodo repository |
-|4| Data Processing steps  | R scripts and comments | R Notebook file, 1 MB | GitHub public repository |
-|5| Data Visualizations  | R scripts and documentation; Plots | R Notebook file, .png image files 4 MB | GitHub public repository |
-|6| Journal article | Rendered report | RMarkdown, 9 MB| Publisher website,   community preprint server|
+|1|doaj_seal.csv|raw data set downloaded from DOAJ site| CSV file, plain text format, 2.7 MB   |    |
+|2| doaj_seal_enhanced.csv | enhanced data set with new data | CSV file, plain text format, 2.7 MB   |    |
+|3| Data set documentation | json metadata file | plain text file, .1 MB |  |
+|4| Data Processing steps  | R scripts and comments | R Notebook file, 1 MB |  |
+|5| Data Visualizations  | R scripts and documentation; Plots | R Notebook file, .png image files 4 MB |  |
 
 
 `Add the following final row of data to the pipe table above:`  
 
-6
-Journal article
+6 Journal article | Typeset manuscript | RMarkdown, 9 MB| |
 
-
-Publisher website (open access) and 
 
 
 Metadata
@@ -199,7 +200,7 @@ Additionally, the Research Data Storage Facility (RDSF) at Trieste Polytechnic I
 
 Selection and Preservation
 
-The final complete data set doaj_seal_enhanced and all published outputs produced based on this data set will be issued Digital Object Identifiers and stored on GitHub and Zenodo.  All draft versions of project outputs will also be publicly available in Git Hub with unique hashes distinguishing each version that predates the final.
+
 
 ****
 
@@ -215,6 +216,10 @@ The Principal Investigator is responsible for implementing the Data Management P
 The Data Management Specialist assigned to the project as an in-kind contribution from the Trieste Polytechnic Institute Library will be responsible for creating the DataCite metadata documentation for all outputs and ensuring timely DOI registration of each final output. (S)he will also deposit all final outputs to the Zenodo repository and update metadata associated with the DOI as necessary.
 
 ****
+
+Annex
+
+Annex Table Complete doaj_seal dataset (set target as annex-table)
 
 Principal Investigator's BioSketch
 
