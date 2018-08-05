@@ -1,5 +1,3 @@
-# Place this chunk below the heading Annexes
-
 ```{r data-table}
 doaj_seal %>%
   datatable(rownames = FALSE, 
