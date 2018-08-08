@@ -1,7 +1,7 @@
 ---
 title: "Data Management Plan for the Study _Do Reputable Open Access Journals Require Open Data Sharing"
 author: "Firstname Lastname, Institution"
-date: "August 1, 2018"
+date: "`r format(Sys.Date(), '%A, %B %d, %Y')`"
 output: html_document
 ---
  

@@ -1,11 +1,9 @@
 ---
-title: "Data Management Plan for the Study _Do Reputable Open Access Journals Require Open Data Sharing?_"
-author: "Gail Clement and Tom Morrell"
-date: "August 2, 2018"
-output: 
-    html_document:
-        toc: true
-        toc_float: true
+title: Data Management Plan for the Study _Do Reputable Open Access Journals Require
+  Open Data Sharing?_
+author: "Gail Clement"
+date: "August 9, 2018"
+output: slidy_presentation
 bibliography: oajournals.bib
 ---
 
