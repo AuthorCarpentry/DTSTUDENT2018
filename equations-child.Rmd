@@ -4,7 +4,7 @@ output: html_document
 ---
 
 
-According to @Xie_2018 :
+According to Xie et al (2018):
 
 Inline LaTeX equations can be written in a pair of dollar signs using the LaTeX syntax, e.g., $f(k) = {n \choose k} p^{k} (1-p)^{n-k}$
 
